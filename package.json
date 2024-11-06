@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.0.0",
     "react": "19.0.0-rc-65a56d0e-20241020",
-    "react-dom": "19.0.0-rc-65a56d0e-20241020",
-    "next": "15.0.0"
+    "react-dom": "19.0.0-rc-65a56d0e-20241020"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^8",
-    "eslint-config-next": "15.0.0"
+    "eslint-config-next": "^15.0.0"
   }
 }
